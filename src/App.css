@@ -13,8 +13,12 @@ form > input {
   padding: 5px;
   margin: 10px;
 }
-
+h1 {
+  text-align: left;
+  margin-left: 20px;
+}
 .high{
+  padding: 5px;
   border: 1px solid red;
   margin: 5px
 }
@@ -23,6 +27,7 @@ form > input {
 }
 
 .low{
+  padding: 5px;
   border: 1px solid Green;
   margin: 5px;
 }
