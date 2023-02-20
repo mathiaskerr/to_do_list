@@ -7,14 +7,26 @@
 
 div > ul {
   list-style: none;
-};
+}
 
-.form > input {
+form > input {
   padding: 5px;
-  margin: 50px;
-};
+  margin: 10px;
+}
 
 .high{
   border: 1px solid red;
-};
+  margin: 5px
+}
+.high p {
+  color: red;
+}
 
+.low{
+  border: 1px solid Green;
+  margin: 5px;
+}
+
+.low p {
+  color: green;
+}

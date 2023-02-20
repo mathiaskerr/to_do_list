@@ -25,8 +25,6 @@ const newPriority = (event) => {
       </div>
 
 
-    // <li class="tasks" key={index}><span>{task.name} </span>
-    //  <span className = "highPriority">{task.priority}</span> : <span className = "lowPriority">{task.priority}</span>}</li>
     
     )
   });
@@ -77,10 +75,3 @@ const newPriority = (event) => {
 }
 
 export default App;
-// const saveNewItem = (event) => {
-//   event.preventDefault();
-//   const copyItems = [...items]
-//   copyItems.push({name:newItem, isPurchased: false})
-//   setItems(copyItems)
-//   setNewItem("")
-// };
